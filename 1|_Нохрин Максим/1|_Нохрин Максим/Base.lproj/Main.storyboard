@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="___Нохрин_Максим" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Пароль" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yty-YD-yDA">
+                                <rect key="frame" x="158" y="248" width="59.5" height="24"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CEp-h4-ZwM">
+                                <rect key="frame" x="62.5" y="297" width="250" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="eW9-xz-Cek"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AJi-dv-AyB">
+                                <rect key="frame" x="62.5" y="174" width="250" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="3NA-br-t7A"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BC2-Lw-fNX">
+                                <rect key="frame" x="165" y="381" width="45" height="35.5"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Вход">
+                                            <attributes>
+                                                <color key="NSColor" red="0.041606512863344602" green="0.15823477362137173" blue="1" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" metaFont="system" size="21"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchDown" id="UgF-6x-Xus"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Логин" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2M-EN-eaG">
+                                <rect key="frame" x="162.5" y="125" width="50.5" height="24"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" id="YtN-Lp-BkF">
+                                <rect key="frame" x="-97" y="886" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <viewLayoutGuide key="safeArea" id="SZQ-ud-cIO"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Добро пожаловать!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zjo-bf-yCk">
+                                <rect key="frame" x="105.5" y="50" width="164.5" height="25"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.844618041119645" green="0.87145489635023665" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CEp-h4-ZwM" firstAttribute="top" secondItem="Yty-YD-yDA" secondAttribute="bottom" constant="25" id="AoP-Oq-ACW"/>
+                            <constraint firstItem="CEp-h4-ZwM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kvj-IA-DqS"/>
+                            <constraint firstItem="AJi-dv-AyB" firstAttribute="top" secondItem="h2M-EN-eaG" secondAttribute="bottom" constant="25" id="Met-Hm-BCS"/>
+                            <constraint firstItem="BC2-Lw-fNX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Nfi-Hk-sya"/>
+                            <constraint firstItem="AJi-dv-AyB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Us5-tl-Bep"/>
+                            <constraint firstItem="Yty-YD-yDA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WFh-IV-FF4"/>
+                            <constraint firstItem="zjo-bf-yCk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ykn-T5-KRi"/>
+                            <constraint firstItem="zjo-bf-yCk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="cXh-Mx-oYY"/>
+                            <constraint firstItem="Yty-YD-yDA" firstAttribute="top" secondItem="AJi-dv-AyB" secondAttribute="bottom" constant="40" id="ffF-9d-OdK"/>
+                            <constraint firstItem="h2M-EN-eaG" firstAttribute="top" secondItem="zjo-bf-yCk" secondAttribute="bottom" constant="50" id="jvV-wH-U3i"/>
+                            <constraint firstItem="h2M-EN-eaG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sLk-Z8-r2q"/>
+                            <constraint firstItem="BC2-Lw-fNX" firstAttribute="top" secondItem="CEp-h4-ZwM" secondAttribute="bottom" constant="50" id="tO0-YA-r4m"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="inputLogin" destination="AJi-dv-AyB" id="cNT-p5-SNv"/>
+                        <outlet property="inputPassword" destination="CEp-h4-ZwM" id="isa-Nb-NeF"/>
+                        <outlet property="label" destination="zjo-bf-yCk" id="NdJ-LL-iJp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="120"/>
+        </scene>
+    </scenes>
+</document>
