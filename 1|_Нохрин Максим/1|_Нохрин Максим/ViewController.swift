@@ -30,12 +30,19 @@ class ViewController: UIViewController {
     
     @IBAction func touchButton(_ sender: Any) {
         
-        guard let _ = inputLogin.text,
-            let _ = inputPassword.text else {
+        guard let login = inputLogin.text, !login.isEmpty,
+            let password = inputPassword.text, !password.isEmpty else {
+                let alert = UIAlertController(title: "Ошибка", message: "Пустой логин или пароль", preferredStyle: .alert)
+                let action = UIAlertAction(title: "Назад", style: .cancel, handler: nil)
+                alert.addAction(action)
+                present(alert, animated: true, completion: nil)
+                print("Пустой логин или пароль")
                 return
         }
         
-            print("Успешный вход")
+        performSegue(withIdentifier: "tabBar", sender: sender)
+        
+        print("Успешный вход")
 
     }
 }

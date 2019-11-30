@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B50A6A482391CA7500C98C15 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A6A472391CA7500C98C15 /* FriendsTableViewController.swift */; };
 		B5C2D492238A712F005A4A96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2D491238A712F005A4A96 /* AppDelegate.swift */; };
 		B5C2D494238A712F005A4A96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2D493238A712F005A4A96 /* SceneDelegate.swift */; };
 		B5C2D496238A712F005A4A96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2D495238A712F005A4A96 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B50A6A472391CA7500C98C15 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
 		B5C2D48E238A712F005A4A96 /* 1|_Нохрин Максим.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1|_Нохрин Максим.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C2D491238A712F005A4A96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5C2D493238A712F005A4A96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				B5C2D49A238A7131005A4A96 /* Assets.xcassets */,
 				B5C2D49C238A7131005A4A96 /* LaunchScreen.storyboard */,
 				B5C2D49F238A7131005A4A96 /* Info.plist */,
+				B50A6A472391CA7500C98C15 /* FriendsTableViewController.swift */,
 			);
 			path = "1|_Нохрин Максим";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				B5C2D496238A712F005A4A96 /* ViewController.swift in Sources */,
 				B5C2D492238A712F005A4A96 /* AppDelegate.swift in Sources */,
 				B5C2D494238A712F005A4A96 /* SceneDelegate.swift in Sources */,
+				B50A6A482391CA7500C98C15 /* FriendsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
