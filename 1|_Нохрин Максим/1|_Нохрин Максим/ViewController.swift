@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+                
         let hideAction = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
         
         view.addGestureRecognizer(hideAction)
