@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B50A6A482391CA7500C98C15 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A6A472391CA7500C98C15 /* FriendsTableViewController.swift */; };
+<<<<<<< Updated upstream
+=======
 		B50A6A4A2393743B00C98C15 /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A6A492393743B00C98C15 /* FriendCell.swift */; };
 		B50A6A4C23937A8800C98C15 /* PhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A6A4B23937A8800C98C15 /* PhotoController.swift */; };
 		B50A6A4F239385C200C98C15 /* PhotoCustomCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A6A4D239385C200C98C15 /* PhotoCustomCellCollectionViewCell.swift */; };
@@ -18,6 +20,9 @@
 		B50A6A5D2398678B00C98C15 /* GlobalGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A6A5C2398678B00C98C15 /* GlobalGroupCell.swift */; };
 		B50A6A5F2398F85300C98C15 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A6A5E2398F85300C98C15 /* User.swift */; };
 		B50A6A612398F86600C98C15 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A6A602398F86600C98C15 /* Group.swift */; };
+		B56E1551239B5C4D00293F7A /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E1550239B5C4D00293F7A /* Avatar.swift */; };
+		B5808C1423A4DEF8002D3B0D /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5808C1323A4DEF8002D3B0D /* LikeButton.swift */; };
+>>>>>>> Stashed changes
 		B5C2D492238A712F005A4A96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2D491238A712F005A4A96 /* AppDelegate.swift */; };
 		B5C2D494238A712F005A4A96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2D493238A712F005A4A96 /* SceneDelegate.swift */; };
 		B5C2D496238A712F005A4A96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2D495238A712F005A4A96 /* ViewController.swift */; };
@@ -28,6 +33,8 @@
 
 /* Begin PBXFileReference section */
 		B50A6A472391CA7500C98C15 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
+=======
 		B50A6A492393743B00C98C15 /* FriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
 		B50A6A4B23937A8800C98C15 /* PhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoController.swift; sourceTree = "<group>"; };
 		B50A6A4D239385C200C98C15 /* PhotoCustomCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCustomCellCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -38,6 +45,9 @@
 		B50A6A5C2398678B00C98C15 /* GlobalGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalGroupCell.swift; sourceTree = "<group>"; };
 		B50A6A5E2398F85300C98C15 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B50A6A602398F86600C98C15 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		B56E1550239B5C4D00293F7A /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		B5808C1323A4DEF8002D3B0D /* LikeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		B5C2D48E238A712F005A4A96 /* 1|_Нохрин Максим.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1|_Нохрин Максим.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C2D491238A712F005A4A96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5C2D493238A712F005A4A96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,19 +69,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B50A6A51239860F900C98C15 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				B50A6A5E2398F85300C98C15 /* User.swift */,
-				B50A6A602398F86600C98C15 /* Group.swift */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
 		B5C2D485238A712F005A4A96 = {
 			isa = PBXGroup;
 			children = (
-				B50A6A51239860F900C98C15 /* model */,
 				B5C2D490238A712F005A4A96 /* 1|_Нохрин Максим */,
 				B5C2D48F238A712F005A4A96 /* Products */,
 			);
@@ -96,6 +96,8 @@
 				B5C2D49C238A7131005A4A96 /* LaunchScreen.storyboard */,
 				B5C2D49F238A7131005A4A96 /* Info.plist */,
 				B50A6A472391CA7500C98C15 /* FriendsTableViewController.swift */,
+<<<<<<< Updated upstream
+=======
 				B50A6A492393743B00C98C15 /* FriendCell.swift */,
 				B50A6A4B23937A8800C98C15 /* PhotoController.swift */,
 				B50A6A562398626C00C98C15 /* UserGroupTableViewController.swift */,
@@ -104,6 +106,9 @@
 				B50A6A5C2398678B00C98C15 /* GlobalGroupCell.swift */,
 				B50A6A4D239385C200C98C15 /* PhotoCustomCellCollectionViewCell.swift */,
 				B50A6A4E239385C200C98C15 /* PhotoCustomCellCollectionViewCell.xib */,
+				B56E1550239B5C4D00293F7A /* Avatar.swift */,
+				B5808C1323A4DEF8002D3B0D /* LikeButton.swift */,
+>>>>>>> Stashed changes
 			);
 			path = "1|_Нохрин Максим";
 			sourceTree = "<group>";
@@ -168,7 +173,6 @@
 			files = (
 				B5C2D49E238A7131005A4A96 /* LaunchScreen.storyboard in Resources */,
 				B5C2D49B238A7131005A4A96 /* Assets.xcassets in Resources */,
-				B50A6A50239385C200C98C15 /* PhotoCustomCellCollectionViewCell.xib in Resources */,
 				B5C2D499238A712F005A4A96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,19 +184,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B50A6A4F239385C200C98C15 /* PhotoCustomCellCollectionViewCell.swift in Sources */,
-				B50A6A4C23937A8800C98C15 /* PhotoController.swift in Sources */,
-				B50A6A592398628B00C98C15 /* GlobalGroupTableViewController.swift in Sources */,
 				B5C2D496238A712F005A4A96 /* ViewController.swift in Sources */,
+				B56E1551239B5C4D00293F7A /* Avatar.swift in Sources */,
 				B5C2D492238A712F005A4A96 /* AppDelegate.swift in Sources */,
-				B50A6A572398626C00C98C15 /* UserGroupTableViewController.swift in Sources */,
-				B50A6A612398F86600C98C15 /* Group.swift in Sources */,
 				B5C2D494238A712F005A4A96 /* SceneDelegate.swift in Sources */,
 				B50A6A482391CA7500C98C15 /* FriendsTableViewController.swift in Sources */,
+<<<<<<< Updated upstream
+=======
 				B50A6A5F2398F85300C98C15 /* User.swift in Sources */,
 				B50A6A5B2398676E00C98C15 /* UserGroupCell.swift in Sources */,
 				B50A6A5D2398678B00C98C15 /* GlobalGroupCell.swift in Sources */,
+				B5808C1423A4DEF8002D3B0D /* LikeButton.swift in Sources */,
 				B50A6A4A2393743B00C98C15 /* FriendCell.swift in Sources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

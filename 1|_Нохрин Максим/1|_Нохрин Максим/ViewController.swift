@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-                
+        
         let hideAction = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
         
         view.addGestureRecognizer(hideAction)
@@ -33,10 +33,15 @@ class ViewController: UIViewController {
         guard let login = inputLogin.text, !login.isEmpty,
             let password = inputPassword.text, !password.isEmpty else {
                 let alert = UIAlertController(title: "Ошибка", message: "Пустой логин или пароль", preferredStyle: .alert)
+                
                 let action = UIAlertAction(title: "Назад", style: .cancel, handler: nil)
+                
                 alert.addAction(action)
+                
                 present(alert, animated: true, completion: nil)
+                
                 print("Пустой логин или пароль")
+                
                 return
         }
         
@@ -45,5 +50,6 @@ class ViewController: UIViewController {
         print("Успешный вход")
 
     }
+    
 }
 

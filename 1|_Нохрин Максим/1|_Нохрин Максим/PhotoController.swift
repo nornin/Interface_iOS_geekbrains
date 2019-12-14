@@ -8,9 +8,6 @@
 
 import UIKit
 
-private let reuseIdentifier = "Photo"
-
-
 class PhotoController: UICollectionViewController {
     var photoCollection = [1, 2, 3, 4, 5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7, 8]
     
@@ -36,5 +33,9 @@ class PhotoController: UICollectionViewController {
 
 class PhotoCell: UICollectionViewCell {
     @IBOutlet weak var photo: UIImageView!
+    
+    @IBAction func setLike(_ sender: Any) {
+        (sender as! LikeButton).like()
+    }
     
 }
