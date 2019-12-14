@@ -8,9 +8,27 @@
 
 import UIKit
 
+enum GenderChoice {
+     case man
+     case woman
+}
+
 class User {
-    var name: String?
-    var gender: String?
+    var name: String
+    
+    var gender: GenderChoice?
+    
     var age: Int?
-    var avatar: UIImageView?
+    
+    var avatar: String
+    
+    init(name: String, gender: GenderChoice?, age: Int?, avatar: String) {
+        self.name = name
+        
+        self.gender = gender
+        
+        self.age = age
+        
+        self.avatar = avatar
+    }
 }
